@@ -1,47 +1,444 @@
----
-layout: default
----
-{% assign trans = site.data.values[site.lan] %}
-{% for post in paginator.posts %}
-<div class="well article">
+<!DOCTYPE html>
+<html lang="ko">
 
-    <span class="post-date">
-        <!--
-        {% assign d = post.date | date: "%d" | plus:'0' %}
-        {{ post.date | date: "%B" }}
-        {% case d %}
-        {% when 1 or 21 or 31 %}{{ d }}st,
-        {% when 2 or 22 %}{{ d }}nd,
-        {% when 3 or 23 %}{{ d }}rd,
-        {% else %}{{ d }}th,
-        {% endcase %}
-        {{ post.date | date: "%Y" }}
-        -->
-        {% assign date_format = site.date_format.title %}
-        {{ post.date | date: date_format }}
-    </span>
-    
-    <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    
-    <div class="post-description">
-        {{ post.description }}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="game development Team">
+    <meta name="author" content="NULL">
+    <title>twinstargames.net</title>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+    <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button> <a class="navbar-brand" href="#page-top">트윈스타게임즈</a></div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll"> <a href="#Company">회사 소개</a></li>
+                    <li class="page-scroll"> <a href="#Project">프로젝트</a></li>
+                    <li class="page-scroll"> <a href="#Location">주소</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12"> <img class="img-responsive" src="img/Project/CompanyImage_BG_Black.png" alt="">
+                    <div class="intro-text">
+                        <!-- <h1 class="name">TwinStarGames</h1> -->
+                        <hr class="star-Black"> <span class="skills">Creative - Development - Fun</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="success" id="Company">
+
+                <div class="col-lg-12 text-center">
+                    <h2>TwinStarGames</h2>
+                    <hr class="star-light">
+
+                    <ul class="list-inline item-details">
+                      <a class="yellowbtn"href="#Intoduction" class="portfolio-link" data-toggle="modal"> 트윈스타게임즈를 소개합니다 </a>
+                </div>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+
+              </div>
+            </div>
+    </section>
+    <section id="Project">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Project</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+              <!-- 프로젝트 목록  -->
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Cowboy" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content"> <i class="fa fa-search-plus fa-3x"></i></div>
+                        </div> <img src="img/Project/Cowboy.png" class="img-responsive" alt="Cabin"> </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Gyroness" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content"> <i class="fa fa-search-plus fa-3x"></i></div>
+                        </div> <img src="img/Project/Gyroness01.jpg" class="img-responsive" alt="Cabin"> </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#KOC" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content"> <i class="fa fa-search-plus fa-3x"></i></div>
+                        </div> <img src="img/Project/KOC.jpg" class="img-responsive" alt="Cabin"> </a>
+                </div>
+                  <!--   -->
+            </div>
+        </div>
+    </section>
+    <section class="success" id="Location">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Location</h2>
+                    <p>206, Ilgwang Building, 148, Yanghwa-ro, Mapo-gu, Seoul, Republic of Korea</p>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+              <div class="container">
+                <div class="col-lg-12">
+                  <h3>Around the Web</h3>
+                  <ul class="list-inline">
+                      <li> <a href="https://www.facebook.com/twinstargame/" target="_blank" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a></li>
+                  </ul>
+                  <p class="big">greatkain76@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+
+                        <p class="big">greatkain76@gmail.com</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <footer class="text-center">
+        <!-- <div class="footer-above">
+            <div class="container">
+                    <div class="col-lg-12">
+                        <h3>Location</h3>
+                        <p>206, Ilgwang Building, 148, Yanghwa-ro, Mapo-gu, Seoul, Republic of Korea</p>
+                    </div>
+            </div>
+            <div class="container">
+                    <div class="col-lg-12">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li> <a href="https://www.facebook.com/twinstargame/" target="_blank" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+        </div> -->
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"> Copyright &copy; twinstargames.net 2018</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a>
     </div>
-    
-</div>
-{% endfor %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">{{ trans.page }}: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
+    <!--  트윈스타게임즈 회사 소개 -->
+    <div class="portfolio-modal modal fade" id="Intoduction" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>COMPANY</h2>
+                            <hr/>
+
+<div class="col-lg-12 text-left">
+                            <h3>트윈스타게임즈 소개</h3>
+                            <p>(주)트윈스타게임즈는 2018년 4월 설립된 스타트업 게임회사입니다.</p>
+                            <p>게임업계에서 10년이상의 경력을 가진 사람들이 창업했으며 현재 스팀(Steam)에서 Cowboy : Attack of Wild Animals를 출시하였습니다.</p>
+                            <p>올해 스팀(Steam) 시장에서 4개의 게임을 출시할 계획이며 스팀뿐만 아니라 모바일 게임 등 다양한 플랫폼의 게임개발을 계획하고 있습니다.</p>
+                            <p>단순히 게임을 만드는 것만이 아닌 창의성-개발력-재미 3요소를 회사의 가치로 삼고 게임을 만들려고 합니다.</p>
+                            <p>트윈스타게임즈는 즐거운 마음으로 함께 어울릴 수 있는 회사를 만드는 것이 목표입니다.</p>
 </div>
+                            <hr/>
+                            <div class="col-lg-12 text-left">
+                              <h3>트윈스타게임즈 연혁</h3>
+                      				<ul>
+                      					<li>
+                      						<div class="year">2007 / <span>3</span></div>
+                      							<p>스노우패밀리 개발팀 결성</p>
+                      							<p>FPS, MORPG, MMORPG 온라인 게임 개발</p>
+                      					</li>
+                      					<li>
+                      						<div class="year">2011 / <span>5</span></div>
+                      							<p>몬스터 디펜스 3D(타워티펜스 3D) 개발</p>
+                      					</li>
+                      					<li>
+                      						<div class="year">2012 / <span>4</span></div>
+                      							<p>가디언스 리그 개발 시작</p>
+                      							<p>7월 : 가디언스리그 넷마블과 퍼블리싱 계약 체결</p>
+                      					</li>
+                      					<li>
+                      						<div class="year">2014 / <span>3</span></div>
+                      							<p>가디언스 리그 넷마블/카카오톡 서비스(구글 매출 최대 16위)</p>
+                      							<p>3월 : 구글스토어 인기순위 2위</p>
+                      					</li>
+                      					<li>
+                      						<div class="year">2017 / <span>3</span></div>
+                      							<p>3월 : 녹스(NOX) 원스토어 출시(원스토어 매출 최대 6위)</p>
+                      							<p>5월 : 녹스(NOX) 구글스토어 출시(인기 순위 1위)</p>
+                      					</li>
+                      					<li>
+                      						<div class="year">2018 / <span>4</span></div>
+                      							<p>4월 : (주)트윈스타게임즈 설립</p>
+                      							<p>5월 : 스팀(Steam) Cowboy : Attack of Wild Animal 출시</p>
+                      					</li>
+                      				</ul>
+                              <hr/>
+
+
+                              <h3>사업 계획 및 목표</h3>
+                                <ul>
+                                  <li>
+                        						<p>게임 개발 사업</p>
+                                    <img src="img/Project/Cowboy.png" class="img-responsive img-centered" alt="">
+                  							    <p>스팀(Steam) - Cowboy : Attack of wild Animal 2018.05 출시.</p>
+                                    <p>스팀(Steam) - Cowboy : Wildlife Zoo(야생동물 농장) 개발중.</p>
+                                    <br/>
+                                    <br/>
+                                    <img src="img/Project/Space01.jpg" class="img-responsive img-centered" alt="">
+                                    <p>스팀(Steam) - Space : War of Species(종의 전쟁) 개발중.</p>
+                                    <br/>
+                                    <br/>
+                                    <img src="img/Project/KingdomOfChaos01.jpg" class="img-responsive img-centered" alt="">
+                                    <p>모바일(Mobile) - Kingdom of Chaos(혼돈의 왕국) 제작 계획.</p>
+                                    <br/>
+                                    <br/>
+                        					</li>
+                                  <li>
+                      							<p>지적 재산권 사업</p>
+                                    <img src="img/Project/Munpia01.jpg" class="img-responsive img-centered" alt="">
+                                    <p>IP 제작 - 기갑병기의 신 : 자이로니스 문피아에서 연재중.</p>
+                                    <p>기갑병기의 신 : 자이로니스 라온E&m과 출판 계약 체결.</p>
+                      							<p>확보된 IP를 통해 게임 펀드 구성 계획.</p>
+                        					</li>
+                                  <hr/>
+                                    <p>트위스타게임즈는 게임 제작과 지적 재산권(IP) 사업을 진행하고 있습니다.</p>
+                                      <p>트윈스타게임즈에서 확보한 IP 기갑병기의 신 : 자이로니스는 2019년 게임 펀드를 구성하여
+                                      스팀(Steam) 및 모바일(Mobile) 플랫폼에서 MMORPG게임으로 제작 될 예정입니다.</p>
+                                      <p>게임 펀드에 관심있으신 분들은 아래 메일로 문의주시기 바랍니다.</p>
+                                      <div class="col-lg-12 text-center">
+                                        <p class="big">greatkain76@gmail.com</p>
+                                      </div>
+                                    </p>
+                                </ul>
+
+                              <hr/>
+                              <h3>회사 주소</h3>
+                              <p>KOR : 서울특별시 서대문구 창천동 449 일광빌딩 206호</p>
+                              <p>ENG : 206, Ilgwang Building, 148, Yanghwa-ro, Mapo-gu, Seoul, Republic of Korea</p>
+                              <hr/>
+                            </div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> 닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  프로젝트 별도 페이지-->
+    <!--  Cowboy : Attack of Wild Animal-->
+    <div class="portfolio-modal modal fade" id="Cowboy" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cowboy : Attack of Wild Animal</h2>
+                            <hr class="star-primary"> <img src="img/Project/Cowboy.png" class="img-responsive img-centered" alt="">
+                            <!-- 영상 태그  -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.youtube.com/embed/8rKIbQwSo6M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <!--    -->
+                            <p>스팀 5월 18일 출시 완료!</p>
+                            <p>스팀 6월 12일 멀티플레이 대전 모드 업데이트 완료!</p>
+                            <p>스팀 6월 29일 멀티플레이 술래잡기 모드 업데이트 완료!</p>
+                            <hr/>
+                            <p>여러분은 평원을 달리며 땅에 숨겨져 있는 골드를 모을 수 있습니다. 하지만 조심하십시오. 야생동물들은 당신이 이 땅에 들어온 것에 무척 화가 났습니다. 야생동물들은 당신이 떠날 때가지 위협할 것입니다. 위험한 순간 멋지게 총을 쏴 야생동물을 잡고 다양한 아이템을 습득하여 야생동물들의 공격으로부터 살아남으세요.</p>
+
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/" target="_blank">Steam</a> </strong></li>
+                                <li>Release Date : <strong>18/05/18 </strong></li>
+                            </ul>
+                            <!-- <button type="button" class="btn btn-default" onclick="location.href='https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/' "target="_blank">Go Steam Store</button> -->
+                            <span class="yellowbtn"onclick="location.href='https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/' "target="_blank"> 스팀 스토어 바로가기 </span>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> 닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--  자이로니스 -->
+    <div class="portfolio-modal modal fade" id="Gyroness" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>기갑병기 자이로니스</h2>
+                            <hr class="star-primary"> <img src="img/Project/Gyroness01.jpg" class="img-responsive img-centered" alt="">
+                            <h3><문피아에서 연재중인 작품></h3>
+                            <h3><라온E&M과 E-Book 판매 계약 체결!></h3>
+
+                            <hr/>
+                            <div class="col-lg-12 text-left">
+                              <p>자이로니스!</p>
+
+                              <p>그것은 금속으로 이루어진 거대한 기체였다. 무수히 많은 기체들이 균열 사이에서 내려오자 빛의 신들은 그것들을 향해 날아가 융합하기 시작했다.
+                              <br/>
+                              차원의 문을 열어 기체를 소환했던 빛의 최고신 아레스는 흰색의 기체를 향해 날아가 융합하였고 주변의 모든 것을 뒤덮을 듯한 강렬한 빛을 발산했다.
+                              <br/>
+                              빛의 신들은 어둠의 세력에 대항할 강력한 힘을 얻게 되자 반격하기 시작했다.
+                              <br/>
+                              새로운 힘을 얻게 된 빛의 신들과 강력한 마족들을 앞세운 어둠의 신들의 전쟁은 그 끝을 알 수 없게 되었다.
+                              </p>
+
+                              <hr/>
+                              <ul class="list-inline item-details">
+                              <p><기갑 병기의 신 : 자이로니스>는 성장형 정통 중세 판타지로 주인공이 우연한 사건으로 [신들의 유물]중 하나인 <자이로니스>를 얻게 되어 세상을 파멸시키려는 제국에 맞서 싸우는 모험을 그린 작품입니다.
+                              <p>현재 문피아에서 144화까지 연재 되었으며 스팀게임으로 제작될 예정입니다.
+                              </p>
+                              <hr/>
+                            </div>
+
+                            <ul class="list-inline item-details">
+                                <li>Client: <strong><a href="http://novel.munpia.com/113391" target="_blank">Munpia</a> </strong></li>
+                                <li>Release Date : <strong>18/05/09 </strong></li>
+                            </ul>
+                            <span class="yellowbtn"onclick="location.href='http://novel.munpia.com/113391' "target="_blank"> 문피아 작품보러 가기 </span>
+                            <!--<button type="button" class="btn btn-default" onclick="location.href='http://novel.munpia.com/113391' "target="_blank">Go Munpia</button>-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> 닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- KOC   -->
+      <div class="portfolio-modal modal fade" id="KOC" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                      <div class="rl"></div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                          <div class="modal-body">
+                              <h2> Kingdom of Chaos</h2>
+                              <hr class="star-primary"> <img src="img/Project/KOC.jpg" class="img-responsive img-centered" alt=""></hr>
+
+                              <!-- 영상 태그  -->
+                              <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe src="https://www.youtube.com/embed/yz1eADtDP4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              </div>
+                              <!--    -->
+                              <p>모바일 디펜스RPG 준비중</p>
+                              <p></p>
+
+                              <ul class="list-inline item-details">
+                                  <li>Client: <strong><a target="_blank">None</a> </strong></li>
+                                  <li>Date: <strong>18/04/26 </strong></li>
+                              </ul>
+                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <!--   -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

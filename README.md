@@ -1,54 +1,27 @@
-Jekyll Xixia
-============
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-* Get it from [github](https://github.com/zxixia/jekyll-xixia).
-* See the [live demo](http://zxixia.github.io/jekyll-xixia/).
-* See it [in action on my own blog](http://xixia.info/).
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
-(not to be confused with jekyll-bootstrap) that's easy to modify and very
-modular in component and element reuse.
+## Getting Started
 
-The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* Fork the repo
 
-Don't forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!
+## Bugs and Issues
 
-Preview
-=======
-![Xixia](/assets/images/preview.png)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-License
-=======
+## Creator
 
-The content of this theme is distributed and licensed under a
-![License Badge](assets/images/cc_by_88x31.png)
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to [the original theme on github](https://github.com/zxixia/jekyll-xixia)
-so I get credit for the original design. Beyond that, have at it!
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-Thanks
-======
+## Copyright and License
 
-1，[Jekyll][jekyll-url]
-
-2，[Bootstrap][bootstrap-url]
-
-3，[Github][github-url]
-
-4，[Jekyll Clean Theme][Jekyll-Clean-Theme-url]
-
-[jekyll-url]: http://jekyllrb.com/
-[bootstrap-url]: http://getbootstrap.com/
-[github-url]: https://github.com/
-[Jekyll-Clean-Theme-url]: https://github.com/scotte/jekyll-clean
-[xixia-url]: http://xixia.info/
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
