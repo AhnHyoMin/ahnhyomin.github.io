@@ -1,1 +1,33 @@
+<<<<<<< HEAD
 theme: jekyll-theme-cayman
+=======
+# Jekyll configuration
+
+name: Xixia
+description: Welcome to Xixia！
+
+# url is currently only used only for the RSS feed in feed.xml
+url: https://www.stardocksystems.com/
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: '/jekyll-xixia'
+## default date_format
+date_format: 
+  title: "%B-%-d-%Y"
+  archive: "%b"
+  categories: "%b-%Y"
+  tag: "%b-%Y"
+# Language
+lan: "en" 
+
+paginate: 10
+
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
+
+exclude: ['README.md', 'LICENSE', "*.bak"]
+>>>>>>> 82fc823daec8bf1fce0fccd01e32775d268809a9
