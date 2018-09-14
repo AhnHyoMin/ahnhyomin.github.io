@@ -11,7 +11,7 @@ permalink: /Profile/
 <!--
 <img src="{{ site.baseurl }}/assets/profile_photo.jpg" title="Profile Picture" class="profile"> -->
 
-<Center><img src="/assets/profile_photo.jpg" width="30%" height="30%"></Center>
+<Center><img src="/assets/profile_photo.jpg" width="200" height="250"></Center>
 
 ---
 
