@@ -23,6 +23,7 @@ url: "https://www.stardocksystems.com/" # the base hostname & protocol for your 
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
+
 # Build settings
 markdown: kramdown
 paginate: 5
