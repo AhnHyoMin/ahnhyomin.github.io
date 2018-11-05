@@ -12,7 +12,10 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
+        <!--order 순서대로 정렬해서 페이지 헤더 출력  -->
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        <!-- 페이지 헤더 출력  -->
+        {% for page in sorted_pages %}
           {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
