@@ -23,6 +23,7 @@ eyJoaXN0b3J5IjpbLTY2NjI3NDJdfQ==
 
 # <center> 마크다운(Markdown) 시작하기  </center>
 
+<a name="Section_1"></a>
 ### 마크다운(Markdown) 이란?
 
 마크다운(Markdown)은 2004년 존 그루버(John Gruber)와 아론 스워츠(Aaron Swartz)에 의해 개발된 마크업 언어 이다.  
@@ -56,8 +57,7 @@ eyJoaXN0b3J5IjpbLTY2NjI3NDJdfQ==
 ### 문법
 
 1. #### 제목
-
-  - **문법**
+  * **문법**
 ```
 # 제목 1        == <h1></h1>
 ## 제목 2       == <h2></h2>
@@ -76,7 +76,7 @@ eyJoaXN0b3J5IjpbLTY2NjI3NDJdfQ==
 ###### 제목 6  
 
 2. #### 텍스트 스타일
-  - **볼드 (Bold)**
+  * **볼드 (Bold)**
 ```
 **볼드체**
 __볼드체**
@@ -85,7 +85,7 @@ __볼드체**
 **볼드체**  
 __볼드체__
 
-  - **이탤릭 (Italic)**
+  * **이탤릭 (Italic)**
 ```
 *이탤릭*
 _이탤릭_
@@ -94,14 +94,14 @@ _이탤릭_
 *이탤릭*
 _이탤릭_
 
-  - **취소선**
+  * **취소선**
 ```
   ~~취소선~~
 ```
     - 결과  
     ~~취소선~~
 
-  - 볼드, 이탤릭 혼합 사용
+  * **볼드, 이탤릭 혼합 사용**
 ```
 **볼드와 _이탤릭_ 혼합사용**
 ```
@@ -111,11 +111,59 @@ _이탤릭_
 
 
 3. #### 인용
-4. #### 코드 블록
-  * 코드 블록 강조
-5. #### 링크
-  * 링크
-  * 섹션 링크
+  * **문법**
+```
+>인용
+>>인용
+>>>인용
+```
+    - 결과  
+    >인용
+    >>인용
+    >>>인용
+
+4. #### 코드 블록(Code Block)
+  * **문법**  
+~~~
+```
+  코드 블록
+```
+~~~
+    - 결과  
+```
+코드블록
+```
+
+  * **코드 블록 강조**
+  ~~~
+  ```ruby
+  require 'redcarpet'
+  markdown = Redcarpet.new("Hello World!")
+  puts markdown.to_html
+  ```
+  ~~~
+    - 결과  
+    ```ruby
+    require 'redcarpet'
+    markdown = Redcarpet.new("Hello World!")
+    puts markdown.to_html
+    ```
+5. #### 링크(Link)
+  * **링크**
+```
+[Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)
+```
+    - 결과  
+      [Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)
+  * **섹션 링크**
+```
+<a name="Section">
+  Text
+</a>  
+  [Section Link](#Section_1)
+```
+    - 결과  
+      [Section Link](#Section_1)
   * 관련 링크
 6. #### 목록 (List)
   * 기호 목록
