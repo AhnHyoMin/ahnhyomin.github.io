@@ -83,8 +83,7 @@ __볼드체**
 ```
     - 결과  
 **볼드체**  
-__볼드체__
-
+__볼드체__  
   * **이탤릭 (Italic)**
 ```
 *이탤릭*
@@ -92,15 +91,13 @@ _이탤릭_
 ```
     - 결과  
 *이탤릭*
-_이탤릭_
-
+_이탤릭_  
   * **취소선**
 ```
   ~~취소선~~
 ```
     - 결과  
-    ~~취소선~~
-
+    ~~취소선~~  
   * **볼드, 이탤릭 혼합 사용**
 ```
 **볼드와 _이탤릭_ 혼합사용**
@@ -152,8 +149,7 @@ _이탤릭_
 [Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)
 ```
     - 결과  
-      [Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)
-      
+      [Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)  
   * **섹션 링크**
 ```
 <a name="Section">
@@ -162,7 +158,7 @@ _이탤릭_
   [Section Link](#Section_1)
 ```
     - 결과  
-      [Section Link](#Section_1)
+      [Section Link](#Section_1)  
   * 관련 링크
 6. #### 목록 (List)
   * 기호 목록
