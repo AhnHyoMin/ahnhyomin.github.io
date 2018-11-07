@@ -21,7 +21,7 @@ cover: "/assets/instacode.png"
 eyJoaXN0b3J5IjpbLTY2NjI3NDJdfQ==
 -->
 
- #  <center>마크다운(Markdown) 시작하기  </center>
+# <center> 마크다운(Markdown) 시작하기  </center>
 
 ### 마크다운(Markdown) 이란?
 
