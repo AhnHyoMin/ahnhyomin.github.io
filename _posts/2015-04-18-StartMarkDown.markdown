@@ -76,7 +76,6 @@ eyJoaXN0b3J5IjpbLTY2NjI3NDJdfQ==
 
 
 2. #### 텍스트 스타일
-
   - **볼드 (Bold)**
 ```
 **볼드체**
@@ -123,7 +122,6 @@ _이탤릭_
     >>>인용
 
 4. #### 코드 블록(Code Block)
-
   - **문법**  
 ~~~
 ```
@@ -152,7 +150,6 @@ _이탤릭_
 
 
 5. #### 링크(Link)
-
   - **링크**
 ```
 [Link](https://www.stardocksystems.com/markdown/2015/04/18/StartMarkDown.html)
