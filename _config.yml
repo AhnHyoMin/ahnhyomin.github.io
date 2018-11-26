@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # 테마 설정에 대한 부분입니다. 기본 설정을 유지하였습니다.
-theme                  : "minimal-mistakes-jekyll"
-#remote_theme           : "mmistakes/minimal-mistakes"
+#theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 
 # 스킨을 설정하는 부분입니다.
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
