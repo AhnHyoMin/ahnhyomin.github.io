@@ -1,0 +1,31 @@
+---
+title: Project
+permalink: /project/
+---
+
+<table>
+    <tr>
+        <th> Title </th>
+        <th> Company </th>
+        <th> Position </th>
+        <th> Time </th>
+    </tr>
+    {% for project in site.project reversed %}
+
+    {% if project.categories contains "project" and project.categories.size == 1 %}
+    <tr>
+        <td>
+            {% assign content = project.content | strip_newlines %}
+            {% if content != ""  or project.redirect_to %}
+                <a href="{{ project.url }}">{{ project.title }}</a>
+            {% else %}
+                {{ project.title }}
+            {% endif %}
+        </td>
+        <td>{{ project.company }}</td>
+        <td>{{ project.position }}</td>
+        <td>{{ project.time }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>

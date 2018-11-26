@@ -1,0 +1,16 @@
+---
+title: "Markdown"
+layout: archive
+permalink: /category/Markdown
+author_profile: false
+sidebar:
+    nav: "posts"
+---
+
+{% if site.categories.Markdown.size > 0  %}
+  {% assign posts = site.categories.Markdown | sort:"date" %}
+  {{ site.category }}
+  {% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+{% endif %}

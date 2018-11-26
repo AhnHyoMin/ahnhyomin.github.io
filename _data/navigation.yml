@@ -1,0 +1,30 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Project"
+    url: /project/
+  - title: "Post"
+    url: /post/
+# Post 카테고리
+posts:
+  - title: "AllPost"
+    url: /post/
+
+
+  # - title: Language
+  #   children:
+  #     - title: "C#"
+  #       url: /category/CShap
+  #
+  # - title: Engine
+  #   children:
+  #     - title: "Unity"
+
+  - title: Jekyll
+    children:
+      - title: "Markdown"
+        url: /category/Markdown
+
+  # - title: Book
+  #   children:
+  #     - title: "Effective C#"

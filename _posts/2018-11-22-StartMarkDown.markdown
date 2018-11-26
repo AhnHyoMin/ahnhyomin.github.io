@@ -1,19 +1,11 @@
 ---
-
 layout: post
-
+type: post
 title: "MarkDown 시작하기!"
-
 date: 2018-11-22 18:43:59
-
-author: 안효민
-
-categories: MarkDown
-
-tags: MarkDown
-
-cover: "/assets/instacode.png"
-
+published: true
+comments: true
+categories: [Markdown]
 ---
 
 
