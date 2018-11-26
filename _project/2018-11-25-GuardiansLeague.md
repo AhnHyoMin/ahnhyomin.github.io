@@ -8,6 +8,8 @@ description: ""
 image: ""
 categories: [project]
 
+order : 001
+
 
 #갤러리 이미지
 gallery:

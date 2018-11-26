@@ -1,6 +1,7 @@
 ---
 title: Project
 permalink: /project/
+classes: wide
 ---
 
 <table>
@@ -10,7 +11,9 @@ permalink: /project/
         <th> Position </th>
         <th> Time </th>
     </tr>
-    {% for project in site.project reversed %}
+
+    {% assign sorted = site.project | sort: 'order'  %}
+    {% for project in sorted %}
 
     {% if project.categories contains "project" and project.categories.size == 1 %}
     <tr>
