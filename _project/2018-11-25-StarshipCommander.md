@@ -29,10 +29,7 @@ gallery:
 ---
 
 ### 플레이 스크린샷
-{% include gallery id="gallery" caption="가디언스 리그 플레이 스크린샷" %}
-
-### 프로모션 영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X1OL6sOi4WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include gallery id="gallery" caption="스크린샷" %}
 
 ### 플레이 영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5nUEFdbszec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XoORubcsG_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
