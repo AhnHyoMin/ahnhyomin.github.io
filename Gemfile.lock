@@ -136,6 +136,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.5)
+  jekyll-include-cache
   jekyll-redirect-from
   metainspector
   minimal-mistakes-jekyll
