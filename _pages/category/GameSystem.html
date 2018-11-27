@@ -1,0 +1,16 @@
+---
+title: "GameSystem"
+layout: archive
+permalink: /category/GameSystem
+author_profile: false
+sidebar:
+    nav: "posts"
+---
+
+{% if site.categories.GameSystem.size > 0  %}
+  {% assign posts = site.categories.GameSystem | sort:"date" %}
+  {{ site.category }}
+  {% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+{% endif %}
