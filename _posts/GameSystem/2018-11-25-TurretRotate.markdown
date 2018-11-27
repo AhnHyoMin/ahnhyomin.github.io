@@ -14,6 +14,11 @@ categories: [GameSystem]
 ### 터렛 회전 목표
   - 부모 오브젝트가 어떠한 방향으로 회전 하든 타겟의 좌표를 정확히 구해야함
 
+### 핵심 구현방법
+  - 타겟의 좌표, 위치등의 정보를 자신의 로컬 기준계산 한다.
+    - tranform가 포함하고 있는 함수중 Inverse로 시작 하는 함수들이 로컬 기준으로 계산해준다.
+    - InverseTransformDirection, InverseTransformVector, InverseTransformPoint
+
 ---
 ### 몸통 회전
 

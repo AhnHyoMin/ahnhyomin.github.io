@@ -27,8 +27,8 @@ order : 1
 * 포지션 : 클라이언트 프로그래머
 * 경력 : 1년
 * Email :  
-  > Gmail : hulralra@gmail.com  
-  > Naver : sow114@naver.com  
+  - Gmail : hulralra@gmail.com  
+  - Naver : sow114@naver.com  
 
 
 
@@ -50,12 +50,15 @@ order : 1
 ## Tool
 * Atom
 * VisualStudio
+* SVN
 
 ## SDK
 * Google SDK (Android)
 * Facebook SDK (Android)
 * Steamworks SDK(PC)
 
+## Other
+* MarkDown
 ---
 <h1>
 <Center> History</Center>
