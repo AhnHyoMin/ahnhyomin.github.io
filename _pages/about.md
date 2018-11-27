@@ -76,5 +76,5 @@ order : 1
 * TwinStarGames 창업 ([LINK](http://twinstargames.net/))
     > -- 3월 창업 멤버로 합류
 
-* TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M))  
-    > -- 2018년 6월 스팀 출시
+* TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([Youtube LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M))  ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
+    > -- 2018년 5월 스팀 출시
