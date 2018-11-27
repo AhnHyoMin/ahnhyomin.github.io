@@ -31,5 +31,12 @@ gallery:
 ### 플레이 스크린샷
 {% include gallery id="gallery" caption="스크린샷" %}
 
+
+---
+### 담당 작업 내용
+  - 인게임 및 UI 개발
+  - 프로젝트 구조 설계
+
+---
 ### 플레이 영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XoORubcsG_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

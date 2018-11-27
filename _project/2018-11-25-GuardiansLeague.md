@@ -34,8 +34,15 @@ gallery:
 ### 플레이 스크린샷
 {% include gallery id="gallery" caption="가디언스 리그 플레이 스크린샷" %}
 
+---  
+### 담당 작업 내용
+  - 밸런스 기획
+  - 컨텐츠 기획
+
+---  
 ### 프로모션 영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X1OL6sOi4WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---  
 ### 플레이 영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5nUEFdbszec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

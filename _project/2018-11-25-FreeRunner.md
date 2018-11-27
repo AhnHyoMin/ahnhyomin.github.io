@@ -28,8 +28,19 @@ gallery:
 ### 플레이 스크린샷
 {% include gallery id="gallery" caption="프리러너 스크린샷" %}
 
+---
+### 담당 작업 내용
+  - UI 개발(unity NGUI)
+  - DB 연동 (클라이언트)
+  - 에셋번들 패치툴 개발
+  - 인게임 로딩 최적화
+  - Google SDK 연동 (모바일)
+  - Facebook SDK 연동 (모바일)
+
+---
 ### 프로모션 영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K0WWxq6mFWE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 ### 플레이 영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YGzwfYL5XCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
