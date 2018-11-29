@@ -33,6 +33,7 @@ gallery:
   - UI 개발(unity NGUI)
   - DB 연동 (클라이언트)
   - 에셋번들 패치툴 개발
+  - 인앱 결제 시스템 개발
   - 인게임 로딩 최적화
   - Google SDK 연동 (모바일)
   - Facebook SDK 연동 (모바일)
