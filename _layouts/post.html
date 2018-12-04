@@ -8,17 +8,16 @@ sidebar:
 
 <main id="main" class="page-content" aria-label="Content">
 
-    <article>
-        {% include post_header.html %}
+
+  {% include post_header.html %}
 
 
-        {{ content }}
+  {{ content }}
+
+      {% if page.comments == true %}
+          {% include comments.html %}
+      {% endif %}
 
 
-    </article>
-
-    {% if page.comments == true %}
-        {% include comments.html %}
-    {% endif %}
 
 </main>
