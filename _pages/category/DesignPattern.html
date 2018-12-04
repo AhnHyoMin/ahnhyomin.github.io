@@ -1,0 +1,16 @@
+---
+title: "DesignPattern"
+layout: archive
+permalink: /category/DesignPattern
+author_profile: false
+sidebar:
+    nav: "posts"
+---
+
+{% if site.categories.DesignPattern.size > 0  %}
+  {% assign posts = site.categories.DesignPattern | sort:"date" %}
+  {{ site.category }}
+  {% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+{% endif %}

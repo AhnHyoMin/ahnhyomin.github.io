@@ -14,6 +14,8 @@ posts:
     children:
       - title: "GameSystem"
         url: /category/GameSystem
+      - title: "DesignPattern"
+        url: /category/DesignPattern
 
   - title: Jekyll
     children:
