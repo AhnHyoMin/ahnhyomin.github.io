@@ -28,7 +28,7 @@ categories: [DesignPattern]
 
 
 ### 참고 이미지  
-<Center><img src='{{ "/assets/post/DesigePatterns/ObserverPattern/observerpattern_01.jpg" | absolute_url }}'  width="100%" height="100%"></Center>
+<Center><img src='{{ "/assets/post/desigepatterns/observerpattern/observerpattern_01.jpg" | absolute_url }}'  width="100%" height="100%"></Center>
 
 ---
 ### 코드 구현
@@ -255,4 +255,4 @@ public class CSubject : MonoBehaviour {
 ### 마무리
 - 아래 이미지를 보면 두 오브젝트가 충돌하자 각 키에대한 업적이 달성되었다는 로그가 출력되었다.
 - 각각의 기능을 분리함으로써 코드가 깔끔해지고 서로의 기능에 간섭또한 없다. 또한 이러한 구조는 업적 뿐만아니라 풀링 시스템 또는 다른  여러 시스템에 적용하기가 쉽다.  
-<Center><img src='{{ "/assets/post/DesigePatterns/ObserverPattern/observerpattern_02.jpg" | absolute_url }}'  width="100%" height="100%"></Center>
+<Center><img src='{{ "/assets/post/desigepatterns/observerpattern/observerpattern_02.jpg" | absolute_url }}'  width="100%" height="100%"></Center>
