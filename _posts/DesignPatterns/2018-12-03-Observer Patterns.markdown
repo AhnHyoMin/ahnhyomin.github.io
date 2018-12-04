@@ -36,7 +36,7 @@ categories: [DesignPattern]
 
 
 ###### CAchievementManager.cs
-- 빈 오브젝트 생성 - > 스크립트 추가
+- 빈 오브젝트 생성 - > 스크립트 추가  
 
 ```c#
 using System.Collections;
@@ -159,7 +159,7 @@ public class CAchievementManager : MonoBehaviour
 
 ```
 
-###### CAchievement.cs
+###### CAchievement.cs  
 ```c#
 using System.Collections;
 using System.Collections.Generic;
