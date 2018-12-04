@@ -93,4 +93,4 @@ defaults:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "blog-HyoMin-Ahn"
+    shortname: "stardocksystems"
