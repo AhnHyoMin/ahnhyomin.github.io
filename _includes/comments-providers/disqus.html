@@ -1,29 +1,5 @@
 {% if site.comments.disqus.shortname %}
-<!-- <div id="disqus_thread"></div>
-<script>
-window.addEventListener('message', receiveMessage, false);
-function receiveMessage(event)
-{
-    if (event.data) {
-        var msg;
-        try {
-            msg = JSON.parse(event.data);
-        } catch (err) {
-            // Do nothing
-        }
-        if (!msg)
-            return false;
-
-        if (msg.name === 'resize' || msg.name === 'rendered') {
-            window.parent.postMessage({
-              sentinel: 'amp',
-              type: 'embed-size',
-              height: msg.data.height
-            }, '*');
-        }
-    }
-}
-</script>
+<div id="disqus_thread"></div>
 <script>
 
 /**
@@ -42,10 +18,10 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
-<div id="disqus_thread"></div>
+<!-- <div id="disqus_thread"></div>
 <script>
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -67,6 +43,6 @@ s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> -->
 
 {% endif %}
