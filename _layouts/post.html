@@ -5,10 +5,7 @@ classes: wide
 sidebar:
     nav: "posts"
 ---
-
-<main id="main" class="page-content" aria-label="Content">
-
-
+<div>
   {% include post_header.html %}
 
 
@@ -17,6 +14,11 @@ sidebar:
       {% if page.comments == true %}
           {% include comments.html %}
       {% endif %}
+
+</div>
+<main id="main" class="page-content" aria-label="Content">
+
+
 
 
 
