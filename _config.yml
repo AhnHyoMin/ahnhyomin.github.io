@@ -31,7 +31,7 @@ locale                   : "ko-KR" # 사이트의 언어 설정을 할 수있습
 
 title: HyoMin's Blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.stardocksystems.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.stardocksystems.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository               : "AhnHyoMin/ahnhyomin.github.io" # 블로그 github 리포지토리
 
 
