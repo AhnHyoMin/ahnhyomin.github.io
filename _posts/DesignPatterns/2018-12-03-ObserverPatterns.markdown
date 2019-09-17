@@ -3,7 +3,7 @@ layout: post
 type: post
 title: "관찰자 패턴(Observer Pattern)"
 date: 2018-12-03 15:24:00
-published: true
+published: flase
 comments: true
 categories: [DesignPattern]
 ---
