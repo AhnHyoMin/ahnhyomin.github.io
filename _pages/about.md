@@ -84,3 +84,14 @@ order : 1
 
 * TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([Youtube LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M))  ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
     > -- 2018년 5월 스팀 출시
+
+* Juneinter 입사 MMORPG HeartWar 개발 참여
+    > -- 2018년 12월 13일
+
+## 2019
+
+* Juneinter 퇴사
+    > -- 2019년 9월 6일
+
+* StarFleet Commander 개발 시작
+    > -- 2019년 9월 7일
