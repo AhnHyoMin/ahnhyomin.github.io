@@ -7,9 +7,10 @@ order : 1
 ---
 
 
- ---
+---
 
 <Center><img src='{{ "/assets/ProfileImage/profile_photo.jpg" | absolute_url }}'  width="50%" height="50%" title="Profile Picture" class="profile"></Center>
+
 ---
 
 <h1>
@@ -25,7 +26,7 @@ order : 1
 
 * 이름 : 안효민(AhnHyoMin)
 * 포지션 : 클라이언트 프로그래머
-* 경력 : 1년
+* 경력 : 약 1년 9개월
 * Email :  
   - Gmail : hulralra@gmail.com  
   - Naver : sow114@naver.com  
@@ -42,10 +43,20 @@ order : 1
 * C#
 * C++
 
+## Network
+* .Net Asp
+  - WepApi
+
 ## Engine
 * Unity
   - NGUI
+  - UGUI
   - Odin (Custom Inspector Asset)
+
+## Build
+* Unity
+  - Android
+  - IOS
 
 ## Tool
 * Atom
@@ -65,7 +76,8 @@ order : 1
 ---
 <h1>
 <Center> History</Center>
-</h1>
+</h1>  
+
 ## 2013
 
 * SonwFamily - 가디언스리그 개발(기획자) 참여 및 출시 ([LINK](https://www.youtube.com/watch?v=X1OL6sOi4WI))  
@@ -82,7 +94,8 @@ order : 1
 * TwinStarGames 창업 ([LINK](http://twinstargames.net/))
     > -- 3월 창업 멤버로 합류
 
-* TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([Youtube LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M))  ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
+* TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([Youtube LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M) ),
+ ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
     > -- 2018년 5월 스팀 출시
 
 * Juneinter 입사 MMORPG HeartWar 개발 참여
@@ -92,6 +105,3 @@ order : 1
 
 * Juneinter 퇴사
     > -- 2019년 9월 6일
-
-* StarFleet Commander 개발 시작
-    > -- 2019년 9월 7일
