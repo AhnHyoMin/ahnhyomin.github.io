@@ -16,6 +16,8 @@ posts:
         url: /category/GameSystem
       - title: "DesignPattern"
         url: /category/DesignPattern
+      - title: "Android"
+        url: /category/Android
 
   - title: Jekyll
     children:

@@ -1,0 +1,16 @@
+---
+title: "Android"
+layout: archive
+permalink: /category/Android
+author_profile: false
+sidebar:
+    nav: "posts"
+---
+
+{% if site.categories.Android.size > 0  %}
+  {% assign posts = site.categories.Android | sort:"date" %}
+  {{ site.category }}
+  {% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
+{% endif %}
