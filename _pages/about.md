@@ -26,7 +26,6 @@ order : 1
 
 * 이름 : 안효민(AhnHyoMin)
 * 포지션 : 클라이언트 프로그래머
-* 경력 : 약 1년 9개월
 * Email :  
   - Gmail : hulralra@gmail.com  
   - Naver : sow114@naver.com  
@@ -51,7 +50,6 @@ order : 1
 * Unity
   - NGUI
   - UGUI
-  - Odin (Custom Inspector Asset)
 
 ## Build
 * Unity
@@ -98,10 +96,10 @@ order : 1
  ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
     > -- 2018년 5월 스팀 출시
 
-* Juneinter 입사 MMORPG HeartWar 개발 참여
+* Juneinter  MMORPG HeartWar 개발 참여
     > -- 2018년 12월 13일
 
-## 2019
+## 2020
 
-* Juneinter 퇴사
-    > -- 2019년 9월 6일
+* 좀비 크라이시스 : 서바이벌 아포칼립스 출시([LINK](https://play.google.com/store/apps/details?id=com.RaGames.ZombieCrisis))
+  > -- 2020년 4월 28일 출시
