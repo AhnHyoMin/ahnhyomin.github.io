@@ -40,7 +40,7 @@ Project Setting -> Player -> Publishing -> Custom Gradle Template,Custom Launche
 **Custom Launcher Gradle Template**  
 - 추석 밑부분 코드 추가   
 
-```java
+```Java
 dependencies {
     // 추가 : 커스텀 추가
 	 implementation 'androidx.multidex:multidex:2.0.1'

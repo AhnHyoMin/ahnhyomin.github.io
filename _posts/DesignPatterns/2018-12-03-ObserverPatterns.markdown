@@ -34,7 +34,7 @@ categories: [DesignPattern]
 ###### CAchievementManager.cs
 - 빈 오브젝트 생성 - > 스크립트 추가  
 
-```c#
+```c++
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -156,7 +156,7 @@ public class CAchievementManager : MonoBehaviour
 ```
 
 ###### CAchievement.cs  
-```c#
+```c++
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -211,7 +211,7 @@ public  class CAchievement
 ###### CSubject.cs
 - 오브젝트 추가 -> 스크립트 추가
 
-```c#
+```c++
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

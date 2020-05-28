@@ -22,7 +22,7 @@ categories: [GameSystem]
 ---
 ### 몸통 회전
 
-```c#
+```c++
 
 // 몸통 좌우 회전
     protected void StraightRotateBody()
@@ -75,7 +75,7 @@ categories: [GameSystem]
 ### 포신 회전
 
 
-```c#
+```c++
 
 // 포신 상하 회전
     protected void StraightRotateBarral()
@@ -120,7 +120,7 @@ categories: [GameSystem]
 ---
 ### 회전 처리
 
-```c#
+```c++
     // 새로운 회전 생성
     protected void NewRotate(Vector3 _LocalTarget, Transform _Turret)
     {

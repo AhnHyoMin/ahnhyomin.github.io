@@ -12,6 +12,8 @@ posts:
 
   - title: "Unity"
     children:
+      - title: "C#"
+        url: /category/CShap
       - title: "GameSystem"
         url: /category/GameSystem
       - title: "DesignPattern"
