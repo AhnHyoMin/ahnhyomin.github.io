@@ -28,6 +28,7 @@ Project Setting -> Player -> Publishing -> Custom Gradle Template,Custom Launche
 
 **Custom Gradle Template**  
 - 다음 파일에 아래와 같은 코드가 있는경우 참고
+
 ```java
 ([rootProject] + (rootProject.subprojects as List)).each {
     ext {
@@ -38,9 +39,9 @@ Project Setting -> Player -> Publishing -> Custom Gradle Template,Custom Launche
 ```
 
 **Custom Launcher Gradle Template**  
-- 추석 밑부분 코드 추가   
+- 추석 밑부분 코드 추가
 
-```Java
+```java  
 dependencies {
     // 추가 : 커스텀 추가
 	 implementation 'androidx.multidex:multidex:2.0.1'
@@ -60,7 +61,6 @@ defaultConfig {
        versionCode **VERSIONCODE**
        versionName '**VERSIONNAME**'
    }
-
 ```
 
 ---
@@ -69,6 +69,7 @@ defaultConfig {
 
 **Custom Gradle Template**  
  - 다음 파일에 아래와 같은 코드가 없는 경우(?), 또는 useAndroidX를 사용하지 않는 환경
+
 ```java
 ([rootProject] + (rootProject.subprojects as List)).each {
     ext {
@@ -79,7 +80,7 @@ defaultConfig {
 ```
 
 **Custom Launcher Gradle Template**  
-- 추석 밑부분 코드 추가   
+- 추석 밑부분 코드 추가     
 
 ```java
 dependencies {
@@ -102,5 +103,4 @@ defaultConfig {
        versionCode **VERSIONCODE**
        versionName '**VERSIONNAME**'
    }
-
 ```
