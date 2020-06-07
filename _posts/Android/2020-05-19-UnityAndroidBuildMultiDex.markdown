@@ -39,7 +39,7 @@ Project Setting -> Player -> Publishing -> Custom Gradle Template,Custom Launche
 ```
 
 **Custom Launcher Gradle Template**  
-- 추석 밑부분 코드 추가
+- 주석 밑부분 코드 추가
 
 ```java  
 dependencies {
