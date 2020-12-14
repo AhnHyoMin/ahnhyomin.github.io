@@ -103,3 +103,9 @@ order : 1
 
 * 좀비 크라이시스 : 서바이벌 아포칼립스 출시([LINK](https://play.google.com/store/apps/details?id=com.RaGames.ZombieCrisis))
   > -- 2020년 4월 28일 출시
+
+* 이집트 매치 팝 : 모험 소녀 출시([LINK](https://play.google.com/store/apps/details?id=com.RaGames.EgyptMatchPop))
+  > -- 2020년 6월  출시
+
+* 던전 크라이시스: 오프라인 액션 RPG([LINK](https://play.google.com/store/apps/details?id=com.RaGames.DungeonCrisis))
+  > -- 2020년 12월 출시
