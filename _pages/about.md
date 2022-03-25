@@ -83,14 +83,12 @@ order : 1
 
 
 ## 2017
+
 * 토키 스튜디오 -  프리러너 개발 참여 및 출시 ([LINK](https://www.youtube.com/watch?v=Tu4QMD2avMk))
     > -- 2017년 12월 북미 구글 출시
 
 
 ## 2018
-
-* TwinStarGames 창업 ([LINK](http://twinstargames.net/))
-    > -- 3월 창업 멤버로 합류
 
 * TwinStarGames -  Cowboy : Attack of wild Animal 개발 참여 및 출시  ([Youtube LINK](https://www.youtube.com/watch?v=8rKIbQwSo6M) ),
  ([Steam LINK](https://store.steampowered.com/app/844970/Cowboy__Attack_of_Wild_Animal/))
