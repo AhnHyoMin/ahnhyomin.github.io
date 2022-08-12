@@ -28,8 +28,6 @@ order : 1
 * 포지션 : 클라이언트 프로그래머
 * Email :  
   - Gmail : hulralra@gmail.com  
-  - Naver : sow114@naver.com  
-
 
 
 
